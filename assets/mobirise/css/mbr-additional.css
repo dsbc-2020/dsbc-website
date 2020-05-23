@@ -1307,63 +1307,45 @@ section.lazy-placeholder:after {
   display: flex;
   flex-direction: column-reverse;
 }
-.cid-rZMkrgwlGk {
+.cid-rZMAgLNoLV {
   padding-top: 30px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rZMkrgwlGk .mbr-section-subtitle {
+.cid-rZMAgLNoLV .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rZMkrgwlGk .media-container-row {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+.cid-rZMAgLNoLV .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
 }
-.cid-rZMkrgwlGk .mbr-text {
-  color: #767676;
+.cid-rZMAgLNoLV .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
 }
-.cid-rZMkrgwlGk .mbr-author-desc {
-  display: block;
-  color: #767676;
-}
-.cid-rZMkrgwlGk .mbr-author-name {
-  color: #767676;
-}
-.cid-rZMkrgwlGk .mbr-testimonial .panel-item {
-  background-color: #ffffff;
-}
-.cid-rZMkrgwlGk .mbr-testimonial .card-block {
-  -webkit-flex-grow: 0;
-  flex-grow: 0;
-  padding: 2.4rem 2.4rem 0 2.4rem;
-}
-.cid-rZMkrgwlGk .mbr-testimonial .card-block .testimonial-photo {
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-  margin-bottom: 1.6rem;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.cid-rZMkrgwlGk .mbr-testimonial .card-block .testimonial-photo img {
+.cid-rZMAgLNoLV .team-item .item-image img {
   width: 100%;
-  min-width: 100%;
-  min-height: 100%;
 }
-.cid-rZMkrgwlGk .mbr-testimonial .card-footer {
-  padding-bottom: 2.4rem;
-  border-top: 0;
-  padding-top: 1rem;
-  word-wrap: break-word;
-  word-break: break-word;
-  background: none;
+.cid-rZMAgLNoLV .team-item .item-name p {
+  margin-bottom: 0;
 }
-@media (max-width: 300px) {
-  .cid-rZMkrgwlGk .testimonial-photo {
-    width: 100% !important;
-    height: auto !important;
-  }
+.cid-rZMAgLNoLV .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rZMAgLNoLV .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rZMAgLNoLV .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rZMAgLNoLV .team-item .item-caption {
+  background: #efefef;
 }
 .cid-rZM85huODv {
   padding-top: 15px;
@@ -2066,4 +2048,129 @@ section.lazy-placeholder:after {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/5-effective-ways-to-motivate-your-marketing-team-1520x800.png");
+}
+.cid-rZMAbks2jQ {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rZMAbks2jQ .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rZMAbks2jQ .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rZMAbks2jQ .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-rZMAbks2jQ .team-item .item-image img {
+  width: 100%;
+}
+.cid-rZMAbks2jQ .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-rZMAbks2jQ .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rZMAbks2jQ .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rZMAbks2jQ .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rZMAbks2jQ .team-item .item-caption {
+  background: #efefef;
+}
+.cid-rZMzW3gR17 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #2e2e2e;
+}
+@media (max-width: 767px) {
+  .cid-rZMzW3gR17 .content {
+    text-align: center;
+  }
+  .cid-rZMzW3gR17 .content > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+.cid-rZMzW3gR17 .map {
+  height: 18.75rem;
+}
+@media (max-width: 767px) {
+  .cid-rZMzW3gR17 .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-rZMzW3gR17 .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #fff;
+  opacity: .05;
+}
+.cid-rZMzW3gR17 .footer-lower .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cid-rZMzW3gR17 .footer-lower .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.cid-rZMzW3gR17 .footer-lower .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-rZMzW3gR17 .footer-lower .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-rZMzW3gR17 .footer-lower .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-rZMzW3gR17 .footer-lower .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+.cid-rZMzW3gR17 .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-rZMzW3gR17 .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-rZMzW3gR17 .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-rZMzW3gR17 .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-rZMzW3gR17 .google-map[data-state="loading"] [data-state-details] {
+  display: none;
 }
