@@ -1638,12 +1638,12 @@ section.lazy-placeholder:after {
 }
 .cid-rZM7rF33Ei .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rZM7rF33Ei .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #ffffff;
 }
 .cid-rZM7rF33Ei a {
   font-style: normal;
